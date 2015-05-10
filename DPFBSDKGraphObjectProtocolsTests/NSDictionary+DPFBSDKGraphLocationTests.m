@@ -71,4 +71,9 @@
     XCTAssertEqualObjects([graphLocation longitude], @-122.149909,@"Graph location can retrieve longitude");
 }
 
+-(void)testGraphLocationProtocolExtendsGraphObjectProtocol{
+    XCTAssertNoThrow([graphObject objectId],@"Graph location extends graph object protocol");
+    XCTAssertEqualObjects([graphObject objectId], @"166793820034304",@"Graph location can retrieve objectId");
+}
+
 @end

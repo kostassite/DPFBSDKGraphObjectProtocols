@@ -47,4 +47,9 @@
     XCTAssertTrue([[graphObject location] isKindOfClass:[NSDictionary class]],@"Graph place location is dictionary");
 }
 
+-(void)testGraphPlaceProtocolExtendsGraphObjectProtocol{
+    XCTAssertNoThrow([graphObject objectId],@"Graph place extends graph object protocol");
+    XCTAssertEqualObjects([graphObject objectId], @"166793820034304",@"Graph place can retrieve objectId");
+}
+
 @end
