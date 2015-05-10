@@ -10,6 +10,7 @@
 		2E71AB301AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
 		2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
 		2E71AB351AFFB0C800AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
+		2E71AB3A1AFFB25F00AA59D3 /* GraphObjectJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */; };
 		2EEA8FD01AFFAABC0083867A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FCF1AFFAABC0083867A /* main.m */; };
 		2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FD21AFFAABC0083867A /* AppDelegate.m */; };
 		2EEA8FDB1AFFAABC0083867A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA8FDA1AFFAABC0083867A /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 		2E71AB2E1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPFBSDKGraphObject.h"; sourceTree = "<group>"; };
 		2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObject.m"; sourceTree = "<group>"; };
 		2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObject.m"; sourceTree = "<group>"; };
+		2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GraphObjectJSON.json; sourceTree = "<group>"; };
 		2EEA8FCA1AFFAABC0083867A /* DPFBSDKGraphObjectProtocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPFBSDKGraphObjectProtocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEA8FCE1AFFAABC0083867A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EEA8FCF1AFFAABC0083867A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */,
+				2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */,
 				2EEA8FE71AFFAABC0083867A /* Supporting Files */,
 			);
 			path = DPFBSDKGraphObjectProtocolsTests;
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E71AB3A1AFFB25F00AA59D3 /* GraphObjectJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

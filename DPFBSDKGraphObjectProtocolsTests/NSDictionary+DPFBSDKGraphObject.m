@@ -21,7 +21,9 @@
 - (void)setUp {
     [super setUp];
 
-    graphObject = [NSDictionary dictionaryWithObjectsAndKeys:@"123456",@"id", nil];
+    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"GraphObjectJSON" ofType:@"json"]];
+    NSError *error = nil;
+    graphObject = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 }
 
 - (void)tearDown {
@@ -32,7 +34,7 @@
 
 -(void)testGraphObjectHasObjectId{
     XCTAssertNoThrow([graphObject objectId],@"Graph object has objectId getter");
-    XCTAssertEqualObjects([graphObject objectId], @"123456",@"Graph object can retrieve objectId");
+    XCTAssertEqualObjects([graphObject objectId], @"166793820034304",@"Graph object can retrieve objectId");
 }
 
 @end
