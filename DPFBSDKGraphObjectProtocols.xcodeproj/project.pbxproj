@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		2EEA8FD01AFFAABC0083867A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FCF1AFFAABC0083867A /* main.m */; };
 		2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FD21AFFAABC0083867A /* AppDelegate.m */; };
-		2EEA8FD61AFFAABC0083867A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FD51AFFAABC0083867A /* ViewController.m */; };
-		2EEA8FD91AFFAABC0083867A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA8FD71AFFAABC0083867A /* Main.storyboard */; };
 		2EEA8FDB1AFFAABC0083867A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA8FDA1AFFAABC0083867A /* Images.xcassets */; };
-		2EEA8FDE1AFFAABC0083867A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA8FDC1AFFAABC0083867A /* LaunchScreen.xib */; };
 		2EEA8FEA1AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FE91AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m */; };
 /* End PBXBuildFile section */
 
@@ -32,11 +29,7 @@
 		2EEA8FCF1AFFAABC0083867A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EEA8FD11AFFAABC0083867A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EEA8FD21AFFAABC0083867A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EEA8FD41AFFAABC0083867A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2EEA8FD51AFFAABC0083867A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2EEA8FD81AFFAABC0083867A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EEA8FDA1AFFAABC0083867A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2EEA8FDD1AFFAABC0083867A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2EEA8FE31AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPFBSDKGraphObjectProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEA8FE81AFFAABC0083867A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EEA8FE91AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPFBSDKGraphObjectProtocolsTests.m; sourceTree = "<group>"; };
@@ -83,11 +76,7 @@
 			children = (
 				2EEA8FD11AFFAABC0083867A /* AppDelegate.h */,
 				2EEA8FD21AFFAABC0083867A /* AppDelegate.m */,
-				2EEA8FD41AFFAABC0083867A /* ViewController.h */,
-				2EEA8FD51AFFAABC0083867A /* ViewController.m */,
-				2EEA8FD71AFFAABC0083867A /* Main.storyboard */,
 				2EEA8FDA1AFFAABC0083867A /* Images.xcassets */,
-				2EEA8FDC1AFFAABC0083867A /* LaunchScreen.xib */,
 				2EEA8FCD1AFFAABC0083867A /* Supporting Files */,
 			);
 			path = DPFBSDKGraphObjectProtocols;
@@ -199,8 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EEA8FD91AFFAABC0083867A /* Main.storyboard in Resources */,
-				2EEA8FDE1AFFAABC0083867A /* LaunchScreen.xib in Resources */,
 				2EEA8FDB1AFFAABC0083867A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EEA8FD61AFFAABC0083867A /* ViewController.m in Sources */,
 				2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */,
 				2EEA8FD01AFFAABC0083867A /* main.m in Sources */,
 			);
@@ -242,25 +228,6 @@
 			targetProxy = 2EEA8FE41AFFAABC0083867A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2EEA8FD71AFFAABC0083867A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EEA8FD81AFFAABC0083867A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2EEA8FDC1AFFAABC0083867A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EEA8FDD1AFFAABC0083867A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2EEA8FEB1AFFAABC0083867A /* Debug */ = {
