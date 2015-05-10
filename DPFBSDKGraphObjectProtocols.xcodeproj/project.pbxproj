@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E71AB301AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
+		2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
+		2E71AB351AFFB0C800AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
 		2EEA8FD01AFFAABC0083867A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FCF1AFFAABC0083867A /* main.m */; };
 		2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FD21AFFAABC0083867A /* AppDelegate.m */; };
 		2EEA8FDB1AFFAABC0083867A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA8FDA1AFFAABC0083867A /* Images.xcassets */; };
-		2EEA8FEA1AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FE91AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E71AB2E1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPFBSDKGraphObject.h"; sourceTree = "<group>"; };
+		2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObject.m"; sourceTree = "<group>"; };
+		2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObject.m"; sourceTree = "<group>"; };
 		2EEA8FCA1AFFAABC0083867A /* DPFBSDKGraphObjectProtocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPFBSDKGraphObjectProtocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEA8FCE1AFFAABC0083867A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EEA8FCF1AFFAABC0083867A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -32,7 +37,7 @@
 		2EEA8FDA1AFFAABC0083867A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2EEA8FE31AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPFBSDKGraphObjectProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEA8FE81AFFAABC0083867A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EEA8FE91AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPFBSDKGraphObjectProtocolsTests.m; sourceTree = "<group>"; };
+		2EEA8FF51AFFABC10083867A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			children = (
 				2EEA8FCC1AFFAABC0083867A /* DPFBSDKGraphObjectProtocols */,
 				2EEA8FE61AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests */,
+				2EEA8FF71AFFAC0C0083867A /* Frameworks */,
 				2EEA8FCB1AFFAABC0083867A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +82,7 @@
 			children = (
 				2EEA8FD11AFFAABC0083867A /* AppDelegate.h */,
 				2EEA8FD21AFFAABC0083867A /* AppDelegate.m */,
+				2EEA8FF31AFFAAE40083867A /* DPFBSDKGraphObjectProtocols */,
 				2EEA8FDA1AFFAABC0083867A /* Images.xcassets */,
 				2EEA8FCD1AFFAABC0083867A /* Supporting Files */,
 			);
@@ -94,7 +101,7 @@
 		2EEA8FE61AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2EEA8FE91AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m */,
+				2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */,
 				2EEA8FE71AFFAABC0083867A /* Supporting Files */,
 			);
 			path = DPFBSDKGraphObjectProtocolsTests;
@@ -106,6 +113,23 @@
 				2EEA8FE81AFFAABC0083867A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EEA8FF31AFFAAE40083867A /* DPFBSDKGraphObjectProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				2E71AB2E1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.h */,
+				2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */,
+			);
+			path = DPFBSDKGraphObjectProtocols;
+			sourceTree = "<group>";
+		};
+		2EEA8FF71AFFAC0C0083867A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA8FF51AFFABC10083867A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */,
+				2E71AB301AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */,
 				2EEA8FD01AFFAABC0083867A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EEA8FEA1AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests.m in Sources */,
+				2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */,
+				2E71AB351AFFB0C800AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +409,7 @@
 				2EEA8FEF1AFFAABC0083867A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EEA8FF01AFFAABC0083867A /* Build configuration list for PBXNativeTarget "DPFBSDKGraphObjectProtocolsTests" */ = {
 			isa = XCConfigurationList;
@@ -391,6 +418,7 @@
 				2EEA8FF21AFFAABC0083867A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
