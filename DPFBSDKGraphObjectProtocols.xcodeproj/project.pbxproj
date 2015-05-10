@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E71AB301AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
-		2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
+		2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m */; };
 		2E71AB351AFFB0C800AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */; };
 		2E71AB3A1AFFB25F00AA59D3 /* GraphObjectJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */; };
 		2E71AB3D1AFFB49600AA59D3 /* NSDictionary+DPFBSDKGraphPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB3C1AFFB49600AA59D3 /* NSDictionary+DPFBSDKGraphPlace.m */; };
@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		2E71AB2E1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPFBSDKGraphObject.h"; sourceTree = "<group>"; };
 		2E71AB2F1AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObject.m"; sourceTree = "<group>"; };
-		2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObject.m"; sourceTree = "<group>"; };
+		2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphObjectTests.m"; sourceTree = "<group>"; };
 		2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GraphObjectJSON.json; sourceTree = "<group>"; };
 		2E71AB3B1AFFB49600AA59D3 /* NSDictionary+DPFBSDKGraphPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPFBSDKGraphPlace.h"; sourceTree = "<group>"; };
 		2E71AB3C1AFFB49600AA59D3 /* NSDictionary+DPFBSDKGraphPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphPlace.m"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		2EEA8FE61AFFAABC0083867A /* DPFBSDKGraphObjectProtocolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m */,
+				2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m */,
 				2E71AB3E1AFFB4F600AA59D3 /* NSDictionary+DPFBSDKGraphPlaceTests.m */,
 				2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */,
 				2EEA8FE71AFFAABC0083867A /* Supporting Files */,
@@ -256,7 +256,7 @@
 			files = (
 				2E71AB401AFFB52300AA59D3 /* NSDictionary+DPFBSDKGraphPlace.m in Sources */,
 				2E71AB3F1AFFB4F600AA59D3 /* NSDictionary+DPFBSDKGraphPlaceTests.m in Sources */,
-				2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */,
+				2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m in Sources */,
 				2E71AB351AFFB0C800AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
