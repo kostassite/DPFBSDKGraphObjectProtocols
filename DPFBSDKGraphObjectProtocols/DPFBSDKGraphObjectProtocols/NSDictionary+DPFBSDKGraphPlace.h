@@ -14,6 +14,6 @@
 
 -(NSString*)categoryName;
 
--(NSString *)location;
+-(NSDictionary *)location;
 
 @end

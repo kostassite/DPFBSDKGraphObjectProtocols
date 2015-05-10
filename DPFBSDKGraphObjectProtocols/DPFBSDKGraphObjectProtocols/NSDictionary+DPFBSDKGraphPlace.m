@@ -18,7 +18,7 @@
     return [self objectForKey:@"category"];
 }
 
--(NSString *)location{
+-(NSDictionary *)location{
      return [self objectForKey:@"location"];   
 }
 
