@@ -17,6 +17,10 @@
 		2E71AB431AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB421AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m */; };
 		2E71AB441AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB421AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m */; };
 		2E71AB461AFFB6E600AA59D3 /* NSDictionary+DPFBSDKGraphLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB451AFFB6E600AA59D3 /* NSDictionary+DPFBSDKGraphLocationTests.m */; };
+		2E71AB5A1AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB591AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */; };
+		2E71AB5B1AFFFAAF00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB591AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */; };
+		2E71AB5D1AFFFB0D00AA59D3 /* GraphUserJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E71AB5C1AFFFB0D00AA59D3 /* GraphUserJSON.json */; };
+		2E71AB5F1AFFFB7900AA59D3 /* NSDictionary+DPFBSDKGraphUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71AB5E1AFFFB7900AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */; };
 		2EEA8FD01AFFAABC0083867A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FCF1AFFAABC0083867A /* main.m */; };
 		2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8FD21AFFAABC0083867A /* AppDelegate.m */; };
 		2EEA8FDB1AFFAABC0083867A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA8FDA1AFFAABC0083867A /* Images.xcassets */; };
@@ -43,6 +47,10 @@
 		2E71AB411AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPFBSDKGraphLocation.h"; sourceTree = "<group>"; };
 		2E71AB421AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphLocation.m"; sourceTree = "<group>"; };
 		2E71AB451AFFB6E600AA59D3 /* NSDictionary+DPFBSDKGraphLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphLocationTests.m"; sourceTree = "<group>"; };
+		2E71AB581AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPFBSDKGraphUser.h"; sourceTree = "<group>"; };
+		2E71AB591AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphUser.m"; sourceTree = "<group>"; };
+		2E71AB5C1AFFFB0D00AA59D3 /* GraphUserJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GraphUserJSON.json; sourceTree = "<group>"; };
+		2E71AB5E1AFFFB7900AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPFBSDKGraphUser.m"; sourceTree = "<group>"; };
 		2EEA8FCA1AFFAABC0083867A /* DPFBSDKGraphObjectProtocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPFBSDKGraphObjectProtocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEA8FCE1AFFAABC0083867A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EEA8FCF1AFFAABC0083867A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,7 +126,9 @@
 				2E71AB331AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m */,
 				2E71AB3E1AFFB4F600AA59D3 /* NSDictionary+DPFBSDKGraphPlaceTests.m */,
 				2E71AB451AFFB6E600AA59D3 /* NSDictionary+DPFBSDKGraphLocationTests.m */,
+				2E71AB5E1AFFFB7900AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */,
 				2E71AB391AFFB25F00AA59D3 /* GraphObjectJSON.json */,
+				2E71AB5C1AFFFB0D00AA59D3 /* GraphUserJSON.json */,
 				2EEA8FE71AFFAABC0083867A /* Supporting Files */,
 			);
 			path = DPFBSDKGraphObjectProtocolsTests;
@@ -141,6 +151,8 @@
 				2E71AB3C1AFFB49600AA59D3 /* NSDictionary+DPFBSDKGraphPlace.m */,
 				2E71AB411AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.h */,
 				2E71AB421AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m */,
+				2E71AB581AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.h */,
+				2E71AB591AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m */,
 			);
 			path = DPFBSDKGraphObjectProtocols;
 			sourceTree = "<group>";
@@ -242,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E71AB3A1AFFB25F00AA59D3 /* GraphObjectJSON.json in Resources */,
+				2E71AB5D1AFFFB0D00AA59D3 /* GraphUserJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +270,7 @@
 				2EEA8FD31AFFAABC0083867A /* AppDelegate.m in Sources */,
 				2E71AB301AFFAFB100AA59D3 /* NSDictionary+DPFBSDKGraphObject.m in Sources */,
 				2EEA8FD01AFFAABC0083867A /* main.m in Sources */,
+				2E71AB5A1AFFFAAB00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E71AB461AFFB6E600AA59D3 /* NSDictionary+DPFBSDKGraphLocationTests.m in Sources */,
+				2E71AB5B1AFFFAAF00AA59D3 /* NSDictionary+DPFBSDKGraphUser.m in Sources */,
 				2E71AB401AFFB52300AA59D3 /* NSDictionary+DPFBSDKGraphPlace.m in Sources */,
+				2E71AB5F1AFFFB7900AA59D3 /* NSDictionary+DPFBSDKGraphUser.m in Sources */,
 				2E71AB441AFFB69B00AA59D3 /* NSDictionary+DPFBSDKGraphLocation.m in Sources */,
 				2E71AB3F1AFFB4F600AA59D3 /* NSDictionary+DPFBSDKGraphPlaceTests.m in Sources */,
 				2E71AB341AFFB02500AA59D3 /* NSDictionary+DPFBSDKGraphObjectTests.m in Sources */,
