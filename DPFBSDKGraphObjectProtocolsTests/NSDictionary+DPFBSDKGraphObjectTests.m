@@ -11,7 +11,7 @@
 #import "NSDictionary+DPFBSDKGraphObject.h"
 
 @interface NSDictionary_DPFBSDKGraphObject : XCTestCase{
-    NSDictionary *graphObject;
+    NSDictionary<DPFBSDKGraphObject> *graphObject;
 }
 
 @end

@@ -12,8 +12,8 @@
 #import "NSDictionary+DPFBSDKGraphPlace.h"
 
 @interface NSDictionary_DPFBSDKGraphLocationTests : XCTestCase{
-    NSDictionary *graphObject;
-    NSDictionary *graphLocation;
+    NSDictionary<DPFBSDKGraphPlace> *graphObject;
+    NSDictionary<DPFBSDKGraphLocation> *graphLocation;
 
 }
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (DPFBSDKGraphLocation)
+@protocol DPFBSDKGraphLocation <NSObject>
 
 -(NSString *)street;
 -(NSString *)city;
@@ -17,5 +17,9 @@
 -(NSString *)zip;
 -(NSNumber *)latitude;
 -(NSNumber *)longitude;
+
+@end
+
+@interface NSDictionary (DPFBSDKGraphLocation)
 
 @end

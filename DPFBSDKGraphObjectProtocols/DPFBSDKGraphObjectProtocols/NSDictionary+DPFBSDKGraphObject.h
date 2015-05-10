@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (DPFBSDKGraphObject)
+@protocol DPFBSDKGraphObject <NSObject>
 
 -(NSString *)objectId;
+
+@end
+
+@interface NSDictionary (DPFBSDKGraphObject)
 
 @end

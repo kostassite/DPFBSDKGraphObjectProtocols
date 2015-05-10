@@ -7,13 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSDictionary+DPFBSDKGraphLocation.h"
 
-@interface NSDictionary (DPFBSDKGraphPlace)
+@protocol DPFBSDKGraphPlace <NSObject>
 
 -(NSString *)name;
 
 -(NSString*)categoryName;
 
--(NSDictionary *)location;
+-(NSDictionary<DPFBSDKGraphLocation> *)location;
+
+@end
+
+@interface NSDictionary (DPFBSDKGraphPlace)
 
 @end
